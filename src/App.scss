@@ -1,0 +1,38 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.watchadd {
+  height: 200px;
+  background: #00bcd4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  background-color: #ddd;
+  object-fit: cover;
+}
+
+.card {
+  &__image {
+    height: 350px;
+    object-fit: cover;
+  }
+  &__badge {
+    align-items: center;
+    background-color: rgba(0, 160, 207, 0.5);
+    border-radius: 100%;
+    color: #fff;
+    display: flex;
+    font-size: 10px;
+    height: 26px;
+    justify-content: center;
+    right: 8px;
+    top: 8px;
+    width: 26px;
+  }
+}
